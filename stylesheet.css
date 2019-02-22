@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Mallanna');
+@import url('https://fonts.googleapis.com/css?family=Asap');
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+header {
+    background-color: #31353a;
+    border-bottom: 2px solid white;
+}
+
+header h1 {
+    padding: 20px 20px;
+    text-align: center;
+    color: white;
+    font-family: mallanna;
+}
+
+body {
+    background-color: #4286f4;
+}
+
+.img-wrapper {
+    text-align: center;
+    width: 100%;
+    z-index: 5;
+}
+
+.img-wrapper img {
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    cursor: pointer;
+    box-sizing: content-box;
+}
+.img-wrapper img:hover{
+    height: 151px;
+    width: 151px;
+}
+
+.scoreboard {
+    border: 10px solid white;
+    width: 350px;
+    height: 100px;
+    margin: auto;
+    margin-top: 50px;
+    z-index: 0;
+}
+
+.badge {
+    color: white;
+    font-family: mallanna;
+    font-size: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100px;
+    position: absolute;
+    z-index: 1;
+    float: left;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 25px;
+    user-select: none;
+
+
+}
+
+.badge2 {
+    color: white;
+    font-family: mallanna;
+    font-size: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100px;
+    z-index: 1;
+    float: right;
+    text-align: center;
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 25px;
+    user-select: none;
+
+}
+
+.score {
+    text-align: center;
+    color: white;
+    font-family: mallanna;
+    font-size: 50px;
+    letter-spacing: 5px;
+    user-select: none;
+    margin-left: 8px;
+}
+
+#current {
+    border: 2px solid green;
+
+}
+#startbtn{
+    position: absolute;
+    font-family: mallanna;
+    background-color: #31353a;
+    font-size: 20px;
+    color: white;
+    padding: 0px 10px;
+    text-align: center;
+    margin-left: 142px;
+    cursor: pointer;
+    border: 2px solid white;
+    
+}
+#resetbtn{
+    position: absolute;
+    font-family: mallanna;
+    background-color: #31353a;
+    font-size: 20px;
+    color: white;
+    padding: 0px 10px;
+    text-align: center;
+    margin-left: 142px;
+    cursor: pointer;
+    border: 2px solid white;
+    display: none;
+    
+}
+#startbtn:hover{
+    font-size: 19px;
+}
+.console{
+    background-color: white;
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    border: #2563c6 5px solid;
+}
+.console p{
+    font-family: mallanna;
+    line-height: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+    user-select: none;
+}
+#name{
+    color: #FFF;
+    text-align: center;
+    font-family: mallanna;
+    margin-top: -20px;
+}
+    
